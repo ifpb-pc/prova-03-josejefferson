@@ -1,6 +1,5 @@
 # Testes parametrizados corrigidos
 import pytest
-import mock
 import builtins
 from main import q1,q2,q3,q4
 
