@@ -2,7 +2,7 @@
 import pytest
 import mock
 import builtins
-from solution import q1,q2,q3,q4
+from main import q1,q2,q3,q4
 
 @pytest.mark.parametrize("idades, esperado", [
     ({"João Pessoa": 432, "Campina Grande": 325, "Santa Rita": 68, "Patos": 289}, ["João Pessoa", "Campina Grande", "Patos"]),
