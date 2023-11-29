@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Q1",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k \"q1\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Q2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k \"q2\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
